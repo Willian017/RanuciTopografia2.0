@@ -202,23 +202,22 @@ html
 
     .slideshow-container 
     {
-        width: 60vw;
+        width: 50vw;
         height: 40vh;
-        position: relative;
-        margin: auto;
+        margin: 5vh auto;
         box-shadow: 0px 0px 2px;
         border-radius: 10px;
 
         .mySlides 
         {
-            width: 60vw;
+            width: 50vw;
             height: 40vh;
             display: none;
 
             img
             {
                 border: $borda;
-                width: 60vw;
+                width: 50vw;
                 height: 40vh;
                 border-radius: 10px;
                 margin: 2vh 0 0vh;
