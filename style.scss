@@ -139,31 +139,39 @@ html
     color: $color;
     padding: 6vh 6vw;
 
-    h3
+    .second-article-first-div
     {
-        font-size: 13px;
-    }
+        h3
+        {
+            font-size: 13px;
+        }
 
-    h1
-    {
-        color: white;
-        font-size: 27px;
-        -webkit-text-stroke: #006A3C 1px;
-        margin-bottom: 3vh;
-    }
+        h1
+        {
+            color: white;
+            font-size: 27px;
+            -webkit-text-stroke: #006A3C 1px;
+            margin-bottom: 3vh;
+        }
 
-    h2
-    {
-        font-size: 14px;
-    }
+        h2
+        {
+            font-size: 14px;
+        }
 
-    img
+        img
+        {
+            border: $borda;
+            width: 70vw;
+            height: 30vh;
+            border-radius: 10px;
+            margin: 2vh 0;
+        }
+    }
+    
+    .second-article-second-div
     {
-        border: $borda;
-        width: 80vw;
-        height: 30vh;
-        border-radius: 10px;
-        margin: 2vh 0;
+        display: none;
     }
 }
 
@@ -511,31 +519,31 @@ html
     
     #second-article
     {
-        h3
+        .second-article-first-div
         {
-            font-size: 15px;
-        }
+            h3
+            {
+                font-size: 15px;
+            }
 
-        h1
-        {
-            color: white;
-            font-size: 29px;
-            -webkit-text-stroke: #006A3C 1px;
-            margin-bottom: 3vh;
-        }
+            h1
+            {
+                color: white;
+                font-size: 29px;
+                -webkit-text-stroke: #006A3C 1px;
+                margin-bottom: 3vh;
+            }
 
-        h2
-        {
-            font-size: 16px;
-        }
+            h2
+            {
+                font-size: 16px;
+            }
 
-        img
-        {
-            border: $borda;
-            width: 50vw;
-            height: 45vh;
-            border-radius: 10px;
-            margin: 2vh 0;
+            img
+            {
+                width: 50vw;
+                height: 40vh;
+            }
         }
     }
 
@@ -678,9 +686,26 @@ html
 {
     .header-principal
     {
+        img
+        {
+            width: 150px;
+            height: 90px;
+        }
+
         nav
         {
             display: block;
+
+            ul
+            {
+                li
+                {
+                    a
+                    {
+                        font-size: 22px;
+                    }
+                }
+            }
         }
     }
 
@@ -695,13 +720,15 @@ html
         h1
         {
             margin-bottom: 2vh;
-            font-size: 26px;
+            font-size: 30px;
+            width: 70vw;
         }
 
         h2
         {
-            font-size: 18px;
+            font-size: 20px;
             margin-bottom: 4vh;
+            width: 70vw;
         }
 
         a
@@ -710,7 +737,7 @@ html
             text-decoration: none;
             text-align: left;
             padding: 20px 20px;
-            font-size: 15px;
+            font-size: 18px;
             background-color: #fff;
             border-radius: 10px;
             transition: scale 1s;
@@ -725,33 +752,49 @@ html
     #second-article
     {
         display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        text-align: left;
+        padding: 10vh 6vw;
         
-
-        h3
+        .second-article-first-div
         {
-            font-size: 15px;
+            h3
+            {
+                font-size: 15px;
+            }
+
+            h1
+            {
+                color: white;
+                font-size: 29px;
+                -webkit-text-stroke: #006A3C 1px;
+                margin-bottom: 3vh;
+            }
+
+            h2
+            {
+                font-size: 16px;
+            }
+
+            img
+            {
+                display: none;
+            }
         }
 
-        h1
+        .second-article-second-div
         {
-            color: white;
-            font-size: 29px;
-            -webkit-text-stroke: #006A3C 1px;
-            margin-bottom: 3vh;
-        }
+            display: block;
 
-        h2
-        {
-            font-size: 16px;
-        }
-
-        img
-        {
-            border: $borda;
-            width: 50vw;
-            height: 45vh;
-            border-radius: 10px;
-            margin: 2vh 0;
+            img
+            {
+                width: 40vw;
+                height: 50vh;
+                margin-left: 5vw;
+                border-radius: 10px;
+            }
         }
     }
 
@@ -775,7 +818,7 @@ html
         {
             border: $borda;
             width: 50vw;
-            height: 40vh;
+            height: 50vh;
             border-radius: 10px;
             margin: 5vh 0 0vh;
         }
