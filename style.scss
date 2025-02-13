@@ -17,8 +17,8 @@ html
 .foto-fundo
 {
     position: absolute;
-    background-image: url(img/fachada.png);
-    background-color: $color;
+    background-image: url(img/frente-ranuci.jpeg);
+    background-color: #006A3C;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -30,7 +30,7 @@ html
 
 .header-principal
 {
-    background-color: rgb(0, 106, 60, 0.8);
+    background-color: rgb(0, 106, 60, 0.9);
     color: white;
     display: flex;
     align-items: center;
@@ -42,7 +42,7 @@ html
     img
     {
         width: 150px;
-        height: 90px;
+        height: 100px;
         border: $borda;
     }
 
@@ -100,6 +100,7 @@ html
     text-align: center;
     height: 80vh;
     color: #fff;
+    background-color: rgb(0, 106, 60, 0.4);
     padding: 6vh 6vw;
 
     h1
@@ -112,6 +113,7 @@ html
     {
         font-size: 14px;
         margin-bottom: 4vh;
+        text-align: justify;
     }
 
     a
@@ -157,6 +159,7 @@ html
         h2
         {
             font-size: 14px;
+            text-align: justify;
         }
 
         img
@@ -198,6 +201,7 @@ html
     h2
     {
         font-size: 14px;
+        text-align: justify;
     }
 
     img
@@ -386,6 +390,41 @@ html
         background-color: #006A3C;
         padding: 15px;
         border: 2px solid white;
+    }
+}
+
+#about-us {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    color: #006A3C;
+    text-align: center;
+
+    h2
+    {
+        font-size: 16px;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+
+    .about-us-content 
+    {
+        padding: 20px;
+
+        img
+        {
+            width: 30%;
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid #006A3C;
+            justify-content: space-around;
+        }
+
+        h3
+        {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
     }
 }
 
@@ -1032,7 +1071,7 @@ html
         {
             border: $borda;
             width: 50vw;
-            height: 60vh;
+            height: 50vh;
             border-radius: 10px;
             margin: 5vh 0 0vh;
         }
@@ -1042,7 +1081,7 @@ html
     {
         text-align: left;
         color: $color;
-        padding: 15vh 6vw;
+        padding: 15vh 2vw;
         overflow-x: hidden;
 
         h3

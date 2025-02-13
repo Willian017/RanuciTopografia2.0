@@ -23,7 +23,7 @@ html {
 }
 
 .header-principal {
-  background-color: rgba(0, 106, 60, 0.8);
+  background-color: rgba(0, 106, 60, 0.9);
   color: white;
   display: flex;
   align-items: center;
@@ -34,7 +34,7 @@ html {
 }
 .header-principal img {
   width: 150px;
-  height: 90px;
+  height: 100px;
   border: 0px solid red;
 }
 .header-principal nav {
@@ -78,6 +78,7 @@ html {
   text-align: center;
   height: 80vh;
   color: #fff;
+  background-color: rgba(0, 106, 60, 0.4);
   padding: 6vh 6vw;
 }
 #first-article h1 {
@@ -295,6 +296,33 @@ html {
   background-color: #006A3C;
   padding: 15px;
   border: 2px solid white;
+}
+
+#about-us {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  color: #006A3C;
+  text-align: center;
+}
+#about-us h2 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+#about-us .about-us-content {
+  padding: 20px;
+}
+#about-us .about-us-content img {
+  width: 30%;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid #006A3C;
+  justify-content: space-around;
+}
+#about-us .about-us-content h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 
 @media (min-width: 400px) and (max-width: 500px) {
@@ -712,14 +740,14 @@ html {
   #third-article img {
     border: 0px solid red;
     width: 50vw;
-    height: 60vh;
+    height: 50vh;
     border-radius: 10px;
     margin: 5vh 0 0vh;
   }
   #fourth-article {
     text-align: left;
     color: #006A3C;
-    padding: 15vh 6vw;
+    padding: 15vh 2vw;
     overflow-x: hidden;
   }
   #fourth-article h3 {
@@ -1026,34 +1054,3 @@ html {
 .indicator.active {
   background-color: rgb(255, 255, 255);
 }/*# sourceMappingURL=style.css.map */
-
-#about-us {
-    background-color: white;
-    padding: 20px;
-    margin-top: 20px;
-    color: #006A3C;
-    text-align: center;
-}
-
-#about-us h2 {
-    font-size: 16px;
-    margin-bottom: 20px;
-    text-align: justify;
-}
-
-#about-us .about-us-content {
-    padding: 20px;
-}
-
-#about-us .about-us-image img {
-    width: 30%;
-    height: auto;
-    border-radius: 10px;
-    border: 2px solid #006A3C;
-    justify-content: space-around;
-}
-
-#about-us .about-us-content h3 {
-    font-size: 30px;
-    margin-bottom: 10px;
-}
