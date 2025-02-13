@@ -11,7 +11,7 @@ html {
 
 .foto-fundo {
   position: absolute;
-  background-image: url(img/fachada.png);
+  background-image: url(img/frente-ranuci.jpeg);
   background-color: #006A3C;
   background-repeat: no-repeat;
   background-size: cover;
@@ -87,6 +87,7 @@ html {
 #first-article h2 {
   font-size: 14px;
   margin-bottom: 4vh;
+  text-align: justify;
 }
 #first-article a {
   color: #006A3C;
@@ -119,6 +120,7 @@ html {
 }
 #second-article .second-article-first-div h2 {
   font-size: 14px;
+  text-align: justify;
 }
 #second-article .second-article-first-div img {
   border: 0px solid red;
@@ -148,6 +150,7 @@ html {
 }
 #third-article h2 {
   font-size: 14px;
+  text-align: justify;
 }
 #third-article img {
   border: 0px solid red;
@@ -1023,3 +1026,34 @@ html {
 .indicator.active {
   background-color: rgb(255, 255, 255);
 }/*# sourceMappingURL=style.css.map */
+
+#about-us {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    color: #006A3C;
+    text-align: center;
+}
+
+#about-us h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+#about-us .about-us-content {
+    padding: 20px;
+}
+
+#about-us .about-us-image img {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #006A3C;
+    justify-content: space-around;
+}
+
+#about-us .about-us-content h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
