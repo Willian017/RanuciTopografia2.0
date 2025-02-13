@@ -60,27 +60,25 @@
                 <h1>Nossos Serviços</h1>
                 <h2>A Ranuci Topografia opera em todo territorio nacional, é especializada em topografia, cartografia, geodesia, consultoria, georreferenciamento, car (cadastro ambiental rural), sare (sistema informatizado de acompanhamento a restauração ecológica), acompanhamento técnicos, laudos, vistorias, aerolevantamento, calculos de volumes, cortes, aterros, demarcações, curvas de niveis, projetos de regularização fundiaria, retificações, desmembramentos, rurais e urbanos.</h2>
 
-                <div class="carousel">
-
-                    <div class="carousel-images">
-                        <img src="img/Servicos.png" class="carousel-image" alt="Serviço 1">
-                        <img src="img/Drone2.jpeg" class="carousel-image" alt="Serviço 2">
-                        <img src="img/Geo.png" class="carousel-image" alt="Serviço 3">
-                        <img src="img/prazos.avif" class="carousel-image" alt="Serviço 4">
-                    </div>
-
-                    <button class="carousel-button prev" onclick="prevSlide()">&#10094;</button>
-                    <button class="carousel-button next" onclick="nextSlide()">&#10095;</button>
-
-                    <div class="carousel-indicators">
-                        <span class="indicator" onclick="showSlide(0)"></span>
-                        <span class="indicator" onclick="showSlide(1)"></span>
-                        <span class="indicator" onclick="showSlide(2)"></span>
-                        <span class="indicator" onclick="showSlide(3)"></span>
-                    </div>
-
+                <div>
+                    <article id="carousel-index">
+                        <div class="carousel" id="carousel-index">
+                            <div class="carousel-images">
+                                <img src="img/Servicos.png" class="carousel-image" alt="Serviço 1">
+                                <img src="img/Drone.png" class="carousel-image" alt="Serviço 2">
+                                <img src="img/Geo.png" class="carousel-image" alt="Serviço 3">
+                            </div>
+                            <button class="carousel-button prev" onclick="prevSlide('carousel-index')">&#10094;</button>
+                            <button class="carousel-button next" onclick="nextSlide('carousel-index')">&#10095;</button>
+                            <div class="carousel-indicators">
+                                <span class="indicator" onclick="showSlide(0, 'carousel-index')"></span>
+                                <span class="indicator" onclick="showSlide(1, 'carousel-index')"></span>
+                                <span class="indicator" onclick="showSlide(2, 'carousel-index')"></span>
+                            </div>
+                        </div>
+                    </article>
                 </div>
-            </article> 
+            </article>
 
             <article id="fourth-article">
                 <h3 class="fourth-article-celular">Fale Conosco</h3>
