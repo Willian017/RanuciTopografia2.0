@@ -1256,8 +1256,8 @@ html
     {
         img
         {
-            width: 150px;
-            height: 90px;
+            width: 230px;
+            height: 130px;
         }
 
         nav
@@ -1270,7 +1270,7 @@ html
                 {
                     a
                     {
-                        font-size: 22px;
+                        font-size: 30px;
                     }
                 }
             }
@@ -1288,13 +1288,13 @@ html
         h1
         {
             margin-bottom: 2vh;
-            font-size: 30px;
+            font-size: 46px;
             width: 70vw;
         }
 
         h2
         {
-            font-size: 20px;
+            font-size: 26px;
             margin-bottom: 4vh;
             width: 70vw;
         }
@@ -1304,8 +1304,8 @@ html
             color: #006A3C;
             text-decoration: none;
             text-align: left;
-            padding: 20px 20px;
-            font-size: 18px;
+            padding: 30px 30px;
+            font-size: 26px;
             background-color: #fff;
             border-radius: 10px;
             transition: scale 1s;
@@ -1324,26 +1324,26 @@ html
         align-items: center;
         flex-direction: row;
         text-align: left;
-        padding: 15vh 6vw;
+        padding: 15vh 2vw;
         
         .second-article-first-div
         {
             h3
             {
-                font-size: 16px;
+                font-size: 26px;
             }
 
             h1
             {
                 color: white;
-                font-size: 40px;
-                -webkit-text-stroke: #006A3C 1px;
+                font-size: 60px;
+                -webkit-text-stroke: #006A3C 3px;
                 margin-bottom: 3vh;
             }
 
             h2
             {
-                font-size: 17px;
+                font-size: 24px;
             }
 
             img
@@ -1358,8 +1358,8 @@ html
 
             img
             {
-                width: 40vw;
-                height: 50vh;
+                width: 45vw;
+                height: 40vh;
                 margin-left: 5vw;
                 border-radius: 10px;
             }
@@ -1368,25 +1368,25 @@ html
 
     #third-article
     {
-        padding: 15vh 10vw;
+        padding: 10vh 6vw;
 
         h1
         {
             color: white;
-            font-size: 30px;
+            font-size: 60px;
             margin-bottom: 3vh;
         }
 
         h2
         {
-            font-size: 18px;
+            font-size: 24px;
         }
 
         img
         {
             border: $borda;
-            width: 50vw;
-            height: 55vh;
+            width: 59vw;
+            height: 30vh;
             border-radius: 10px;
             margin: 5vh 0 0vh;
         }
@@ -1396,26 +1396,26 @@ html
     {
         text-align: left;
         color: $color;
-        padding: 15vh 6vw;
+        padding: 15vh 2vw;
         overflow-x: hidden;
 
         h3
         {
-            font-size: 16px;
+            font-size: 26px;
         }
 
         h1
         {
             color: white;
-            font-size: 34px;
-            -webkit-text-stroke: #006A3C 1px;
+            font-size: 60px;
+            -webkit-text-stroke: #006A3C 3px;
             margin-bottom: 2vh;
             width: 40vw;
         }
 
         h2
         {
-            font-size: 20px;
+            font-size: 26px;
             margin-bottom: 4vh;
         }
 
@@ -1437,7 +1437,7 @@ html
                 flex-direction: column;
                 align-items: left;
                 justify-content: center;
-                width: 200px;
+                width: 20vw;
                 margin: 0 10vw 0 0;
 
                 .fourth-article-tablet
@@ -1458,8 +1458,8 @@ html
                         img
                         {
                             border: 3px solid #006A3C;
-                            width: 50px;
-                            height: 50px;
+                            width: 70px;
+                            height: 70px;
                             padding: 2px;
                             border-radius: 100%;
                         }
@@ -1474,7 +1474,7 @@ html
 
                         h4
                         {
-                            font-size: 18px;
+                            font-size: 26px;
                         }
                     }
                 }
@@ -1491,7 +1491,7 @@ html
                 {
                     border: $borda;
                     width: 40vw;
-                    height: 50vh;
+                    height: 40vh;
                     margin-top: 4vh;
                     border-radius: 10px;
                     border: 2px solid $color;
@@ -1500,8 +1500,85 @@ html
         }
     }
 
+    .footer-principal
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: $color;
+        border: $borda;
+        padding-top: 3vh;
+
+        div
+        {
+            border: $borda;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 40vw;
+
+            img
+            {
+                width: 230px;
+                height: 130px;
+                border: $borda;
+            }
+
+            div
+            {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                margin-top: 2vh;
+
+                img
+                {
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 100%;
+                    padding: 5px;
+                    border: 2px solid white;
+                    margin: 0 5px;
+                }
+            }
+
+            h1
+            {
+                font-size: 26px;
+                margin: 2vh 0;
+                color: white;
+                width: 80vw;
+                text-align: center;
+            }
+        }
+
+        p
+        {
+            color: white;
+            font-size: 18px;
+            text-align: center;
+            margin: 2vh 0;
+        }
+    }
+
     #whastapp
     {
+        position: fixed;
+        top: 84vh;
+        right: 2vw;
         opacity: 1;
+
+        img
+        {
+            width: 120px;
+            height: 120px;
+            border-radius: 100%;
+            background-color: #006A3C;
+            padding: 30px;
+            border: 2px solid white;
+        }
     }
 }
