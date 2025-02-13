@@ -32,25 +32,26 @@
                 <h1 style="color: #006A3C;">Nossa Equipe</h1>
                 <h2>No mercado, a empresa manteve as atividades com qualidade, experiência, equipe capacitada e maturidade profissional, procurando sempre dar soluções que melhorem e viabilizem os projetos. <br> Somos compostos por equipe técnica devidamente registrada, contratada, com EPIs e condições de trabalho excelentes, possuindo assim toda documentação necessária para prestação de serviço.</h2>
 
-                <div class="carousel">
+                <div>
+                    <article id="carousel-index">
+                        <div class="carousel" id="carousel-index">
+                            <div class="carousel-images">
+                                <img src="img/natalino-no-mato.avif" class="carousel-image" alt="Serviço 1">
+                                <img src="img/Equipe.png" class="carousel-image" alt="Serviço 2">
+                                <img src="img/drone2.jpeg" class="carousel-image" alt="Serviço 3">
+                                <img src="img/prazos.avif" class="carousel-image" alt="Serviço 4">
 
-                    <div class="carousel-images">
-                        <img src="img/Equipe.png" class="carousel-image" alt="Serviço 1">
-                        <img src="img/Drone2.jpeg" class="carousel-image" alt="Serviço 2">
-                        <img src="img/Geo.png" class="carousel-image" alt="Serviço 3">
-                        <img src="img/prazos.avif" class="carousel-image" alt="Serviço 4">
-                    </div>
-
-                    <button class="carousel-button prev" onclick="prevSlide()">&#10094;</button>
-                    <button class="carousel-button next" onclick="nextSlide()">&#10095;</button>
-
-                    <div class="carousel-indicators">
-                        <span class="indicator" onclick="showSlide(0)"></span>
-                        <span class="indicator" onclick="showSlide(1)"></span>
-                        <span class="indicator" onclick="showSlide(2)"></span>
-                        <span class="indicator" onclick="showSlide(3)"></span>
-                    </div>
-
+                            </div>
+                            <button class="carousel-button prev" onclick="prevSlide('carousel-index')">&#10094;</button>
+                            <button class="carousel-button next" onclick="nextSlide('carousel-index')">&#10095;</button>
+                            <div class="carousel-indicators">
+                                <span class="indicator" onclick="showSlide(0, 'carousel-index')"></span>
+                                <span class="indicator" onclick="showSlide(1, 'carousel-index')"></span>
+                                <span class="indicator" onclick="showSlide(2, 'carousel-index')"></span>
+                                <span class="indicator" onclick="showSlide(3, 'carousel-index')"></span>
+                            </div>
+                        </div>
+                    </article>
                 </div>
 
                 <h2>
