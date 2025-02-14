@@ -171,9 +171,8 @@ html {
   font-size: 12px;
 }
 #fourth-article h1 {
-  color: white;
+  color: #006A3C;
   font-size: 24px;
-  -webkit-text-stroke: #006A3C 1px;
   margin-bottom: 2vh;
 }
 #fourth-article h2 {
@@ -851,9 +850,8 @@ html {
     font-size: 14px;
   }
   #fourth-article h1 {
-    color: white;
+    color: #006A3C;
     font-size: 26px;
-    -webkit-text-stroke: #006A3C 1px;
     margin-bottom: 2vh;
     width: 40vw;
   }
@@ -1072,9 +1070,8 @@ html {
     font-size: 16px;
   }
   #fourth-article h1 {
-    color: white;
+    color: #006A3C;
     font-size: 34px;
-    -webkit-text-stroke: #006A3C 1px;
     margin-bottom: 2vh;
     width: 40vw;
   }
@@ -1296,9 +1293,8 @@ html {
     font-size: 26px;
   }
   #fourth-article h1 {
-    color: white;
+    color: #006A3C;
     font-size: 60px;
-    -webkit-text-stroke: #006A3C 3px;
     margin-bottom: 2vh;
     width: 40vw;
   }
