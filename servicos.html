@@ -9,8 +9,28 @@
     <title>Ranuci Topografia</title>
 </head>
 <body>
-    <header class="header-principal" style="background-color: #006A3C;">
-        <img src="img/Logo.png" alt="logo">
+    <header class="header-principal">
+                
+        <img src="img/Logo.png" alt="logo"><h1>Ranuci Topografia</h1>
+
+        <div class="hamburguer" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <nav id="menu" class="menu-opcoes">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><hr></li>
+                <li><a href="equipe.html">Equipe</a></li>
+                <li><hr></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><hr></li>
+                <li><a href="#contatos">Contato</a></li>
+            </ul>
+        </nav>
+
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -19,6 +39,7 @@
                 <li><a href="#contatos">Contato</a></li>
             </ul>
         </nav>
+
     </header>
     <main>
         <article id="third-article" style="background-color: white; color: #006A3C;">
@@ -26,7 +47,31 @@
                 <div class="about-us-image">
                     <h1 style="color: #006A3C; overflow-x: hidden;font-size: 50px">SERVIÇOS</h1>
                         <h2>EMPRESA ESPECIALIZADA EM TOPOGRAFIA, CARTOGRAFIA, GEODESIA, CONSULTORIA, GEORREFERENCIAMENTO, MEIO AMBIENTE, CAR (CADASTRO AMBIENTAL RURAL), SARE (SISTEMA INFORMATIZADO DE ACOMPANHAMENTO A RESTAURAÇÃO ECOLÓGICA), ACOMPANHAMENTO TÉCNICOS, LAUDOS, VISTORIAS, AEROLEVANTAMENTO, CALCULOS DE VOLUMES, CORTES, ATERROS, DEMARCAÇÕES, CURVAS DE NIVEIS, PROJETOS DE REGULARIZAÇÃO FUNDIARIA, RETIFICAÇÕES, DESMEMBRAMENTOS, RURAIS E URBANOS;
+                            <div>
+                                <article id="carousel-index">
+                                    <div class="carousel" id="carousel-index">
+                                        <div class="carousel-images">
+                                            <img style="border: 2px solid #006A3C;" src="img/serviço1.jpeg" class="carousel-image" alt="Serviço 1">
+                                            <img style="border: 2px solid #006A3C;" src="img/serviço2.jpeg" class="carousel-image" alt="Serviço 2">
+                                            <img style="border: 2px solid #006A3C;" src="img/serviço3.jpeg" class="carousel-image" alt="Serviço 3">
+                                            <img style="border: 2px solid #006A3C;" src="img/serviço4.jpeg" class="carousel-image" alt="Serviço 4">
+                                            <img style="border: 2px solid #006A3C;" src="img/serviço5.jpeg" class="carousel-image" alt="Serviço 5">
+                                            <img style="border: 2px solid #006A3C;" src="img/Servicos.png" class="carousel-image" alt="Serviço 6">
 
+                                        </div>
+                                        <button class="carousel-button prev" onclick="prevSlide('carousel-index')">&#10094;</button>
+                                        <button class="carousel-button next" onclick="nextSlide('carousel-index')">&#10095;</button>
+                                        <div class="carousel-indicators">
+                                            <span class="indicator" onclick="showSlide(0, 'carousel-index')"></span>
+                                            <span class="indicator" onclick="showSlide(1, 'carousel-index')"></span>
+                                            <span class="indicator" onclick="showSlide(2, 'carousel-index')"></span>
+                                            <span class="indicator" onclick="showSlide(3, 'carousel-index')"></span>
+                                            <span class="indicator" onclick="showSlide(4, 'carousel-index')"></span>
+                                            <span class="indicator" onclick="showSlide(5, 'carousel-index')"></span>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
                         </h2><br><br>
                     <h1 style="color: #006A3C; overflow-x: hidden;font-size: 50px">GEORREFERENCIAMENTO</h1>
                       <h2>O georreferenciamento é o processo de mapeamento de um imóvel rural que consiste na identificação e referenciamento dos vértices de seu perímetro ao Sistema Geodésico Brasileiro (SGB), garantindo a determinação precisa de sua área e posição geográfica.
@@ -35,8 +80,8 @@
            
                           Além disso, a adoção desse método facilita processos de compra, venda, desmembramento e usucapião de propriedades, garantindo conformidade com as normas do Instituto Nacional de Colonização e Reforma Agrária (INCRA) e proporcionando maior transparência e confiabilidade aos registros imobiliários.</h2>
                       <div class="map-images">
-                          <img src="img/MAPA.jpg">
-                          <img src="img/MAPA2.jpg" alt=""><br><br><br>
+                          <img style="width: 30%; border: 2px #006A3C;" src="img/MAPA.jpg">
+                          <img style="width: 30%; border: 2px #006A3C;" src="img/MAPA2.jpg" alt=""><br><br><br>
                       </div>
                   </div>
                 <div class="about-us-image">
@@ -53,7 +98,7 @@
                         A adesão ao CAR é fundamental para a gestão sustentável das propriedades rurais, garantindo conformidade com a legislação ambiental vigente e possibilitando o acesso a benefícios e incentivos governamentais voltados à regularização ambiental.
                         
                         </h2>
-                    <img src="img/CAR.jpg" alt=""><br><br><br>
+                    <img style="width: 30%; border: 2px #006A3C;" src="img/CAR.jpg" alt=""><br><br><br>
                 </div>
                 <div class="about-us-image">
                     <h1 style="color: #006A3C;font-size: 50px">ORTOFOTO</h1>
@@ -62,8 +107,8 @@
                         Graças a essas características, a ortofoto proporciona ao usuário uma experiência intuitiva e eficiente na extração de informações relevantes para suas atividades, sendo amplamente utilizada em levantamentos topográficos, planejamento urbano, monitoramento ambiental, engenharia civil, geoprocessamento, entre outras áreas.</h2>
                         <h2>
                         Esse recurso combina a confiabilidade de um mapa com o nível de detalhamento de uma imagem real, permitindo análises precisas e tomadas de decisão estratégicas com maior segurança e assertividade.</h2>
-                    <img src="img/IMAGEM-AEREA1.jpg">
-                    <img src="img/IMAGEM-AEREA2.jpg" style="margin-bottom: 50px;">
+                    <img style="width: 30%; border: 2px #006A3C;" src="img/IMAGEM-AEREA1.jpg">
+                    <img style="width: 30%; border: 2px #006A3C;" src="img/IMAGEM-AEREA2.jpg" style="margin-bottom: 50px;">
                 </div>
             </div>
             
@@ -88,5 +133,7 @@
         </div>
         <p>@2025 Ranuci Topografia.Todos os direitos reservados</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
