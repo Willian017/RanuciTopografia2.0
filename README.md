@@ -1,6 +1,6 @@
 <h1 align="center">Ranuci Topografia</h1>
 
-<p align="center">Circuito Paulista de Damas Website</p>
+<p align="center">Ranuci Topografia Website</p>
 <h4 align="center"> 🚧 Em manutenção... 🚧 </h4>
 
 ### 🛠 Tecnologias
