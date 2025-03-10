@@ -32,7 +32,7 @@ html
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     text-align: center;
     height: 80vh;
     color: #fff;
@@ -419,6 +419,7 @@ html
     #first-article
     {
         padding: 10vh 6vw;
+        justify-content: center;
 
         h1
         {
