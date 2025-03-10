@@ -16,7 +16,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 102vh;
+  height: 80vh;
   width: 100%;
   overflow-x: hidden;
   z-index: -1;
@@ -28,7 +28,7 @@ html {
   align-items: center;
   justify-content: start;
   text-align: center;
-  height: 80vh;
+  height: 62vh;
   color: #fff;
   background-color: rgba(0, 106, 60, 0.4);
   padding: 6vh 6vw;
@@ -525,6 +525,7 @@ html {
     flex-direction: column;
     align-items: start;
     text-align: left;
+    height: 80vh;
     padding: 10vh 6vw;
   }
   #first-article h1 {
