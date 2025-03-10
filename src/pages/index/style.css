@@ -46,6 +46,7 @@ html {
   color: #006A3C;
   text-decoration: none;
   text-align: left;
+  font-weight: bold;
   padding: 20px 20px;
   font-size: 15px;
   background-color: #fff;
@@ -105,6 +106,7 @@ html {
   background-color: #fff;
   border-radius: 10px;
   transition: scale 1s;
+  font-weight: bold;
 }
 #third-article a:hover {
   scale: 1.05;
