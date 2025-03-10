@@ -66,21 +66,62 @@ html {
   padding: 5vh 6vw;
 }
 #second-article h1 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 22px;
+}
+#second-article p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+#second-article img {
+  width: 90vw;
+  border-radius: 10px;
 }
 #second-article div {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#second-article div p {
-  font-size: 14px;
-  margin-bottom: 20px;
+
+#third-article {
+  display: flex;
+  flex-direction: column;
+  background-color: #006A3C;
+  color: #fff;
+  padding: 5vh 6vw;
+  text-align: center;
 }
-#second-article div img {
-  width: 90vw;
+#third-article h1 {
+  margin-bottom: 10px;
+}
+#third-article p {
+  margin-bottom: 30px;
+}
+#third-article a {
+  color: #006A3C;
+  text-decoration: none;
+  padding: 15px 20px;
+  font-size: 17px;
+  background-color: #fff;
   border-radius: 10px;
+  transition: scale 1s;
+}
+#third-article a:hover {
+  scale: 1.05;
+}
+#third-article img {
+  border-radius: 100%;
+  width: 60px;
+}
+#third-article h2 {
+  font-size: 20px;
+}
+#third-article h3 {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+#third-article .second-div {
+  margin-top: 40px;
 }
 
 #fourth-article {
@@ -293,6 +334,9 @@ html {
     border-radius: 10px;
     transition: scale 1s;
   }
+  #second-article img {
+    width: 60vw;
+  }
   #fourth-article {
     text-align: left;
     color: #006A3C;
@@ -499,6 +543,48 @@ html {
     background-color: #fff;
     border-radius: 10px;
     transition: scale 1s;
+  }
+  #second-article {
+    padding: 10vh 3vw;
+  }
+  #second-article div {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  #second-article h1 {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  #second-article p {
+    font-size: 20px;
+    text-align: left;
+  }
+  #second-article img {
+    margin-left: 60px;
+    width: 40vw;
+  }
+  #third-article h1 {
+    font-size: 30px;
+  }
+  #third-article p {
+    font-size: 18px;
+  }
+  #third-article h2 {
+    font-size: 20px;
+  }
+  #third-article h3 {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  #third-article .second-div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: start;
+  }
+  #third-article .second-div div {
+    width: 26vw;
+    margin: 0 3vw;
   }
   #fourth-article {
     text-align: left;

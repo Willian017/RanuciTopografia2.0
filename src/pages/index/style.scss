@@ -82,8 +82,20 @@ html
 
     h1
     {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         font-size: 22px;
+    }
+
+    p
+    {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    img
+    {
+        width: 90vw;
+        border-radius: 10px;
     }
 
     div
@@ -91,18 +103,64 @@ html
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+}
 
-        p
-        {
-            font-size: 14px;
-            margin-bottom: 20px;
-        }
+#third-article
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #006A3C;
+    color: #fff;
+    padding: 5vh 6vw;
+    text-align: center;
 
-        img
-        {
-            width: 90vw;
-            border-radius: 10px;
-        }
+    h1
+    {
+        margin-bottom: 10px;
+    }
+
+    p
+    {
+        margin-bottom: 30px;
+    }
+
+    a
+    {
+        color: #006A3C;
+        text-decoration: none;
+        padding: 15px 20px;
+        font-size: 17px;
+        background-color: #fff;
+        border-radius: 10px;
+        transition: scale 1s;
+    }
+
+    a:hover
+    {
+        scale: 1.05;
+    }
+
+    img
+    {
+        border-radius: 100%;
+        width: 60px;
+    }
+
+    h2
+    {
+        font-size: 20px;
+    }
+
+    h3
+    {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .second-div
+    {
+        margin-top: 40px;
     }
 }
 
@@ -382,6 +440,14 @@ html
             background-color: #fff;
             border-radius: 10px;
             transition: scale 1s;
+        }
+    }
+
+    #second-article
+    {
+        img
+        {
+            width: 60vw;
         }
     }
     
@@ -673,6 +739,72 @@ html
             background-color: #fff;
             border-radius: 10px;
             transition: scale 1s;
+        }
+    }
+
+    #second-article
+    {
+        padding: 10vh 3vw;
+        div
+        {
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+
+        h1
+        {
+            font-size: 30px;
+            margin-bottom: 40px;
+        }
+
+        p
+        {
+            font-size: 20px;
+            text-align: left;
+        }
+
+        img
+        {
+            margin-left: 60px;
+            width: 40vw;
+        }
+    }
+
+    #third-article
+    {
+        h1
+        {
+            font-size: 30px;
+        }
+
+        p
+        {
+            font-size: 18px;
+        }
+
+        h2
+        {
+            font-size: 20px;
+        }
+
+        h3
+        {
+            font-size: 16px;
+            margin-top: 5px;
+        }
+
+        .second-div
+        {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: start;
+
+            div
+            {
+                width: 26vw;
+                margin: 0 3vw;
+            }
         }
     }
 
